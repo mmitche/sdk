@@ -8,7 +8,6 @@
     <Dependency Name="Microsoft.TemplateEngine.Abstractions" Version="6.0.0-preview.1.21075.2">
       <Uri>https://github.com/dotnet/templating</Uri>
       <Sha>0e0dd4281b9f741ddcff13f481fe57cbf21373ac</Sha>
-      <Sha>31980633108a1bef00c798136fcd30a873c90fa3</Sha>
     </Dependency>
     <Dependency Name="Microsoft.TemplateEngine.Cli.Localization" Version="6.0.0-preview.1.21075.2">
       <Uri>https://github.com/dotnet/templating</Uri>
