@@ -13,6 +13,7 @@
     <Dependency Name="VS.Redist.Common.NetCore.SharedFramework.x64.8.0" Version="8.0.0-preview.3.23157.2">
       <Uri>https://github.com/dotnet/runtime</Uri>
       <Sha>0f1866ead5aef15d47983692bafb4ba20cd3aa98</Sha>
+      <SourceBuild RepoName="runtime" ManagedOnly="true" />
     </Dependency>
     <Dependency Name="VS.Redist.Common.NetCore.TargetingPack.x64.8.0" Version="8.0.0-preview.3.23157.2">
       <Uri>https://github.com/dotnet/runtime</Uri>
