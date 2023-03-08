@@ -106,7 +106,6 @@
     <Dependency Name="NuGet.Build.Tasks" Version="6.6.0-preview.2.29">
       <Uri>https://github.com/nuget/nuget.client</Uri>
       <Sha>4d5af8a3492c8d9d0c99c3cdf3cce12129c8e743</Sha>
-      <SourceBuild RepoName="nuget-client" ManagedOnly="true" />
     </Dependency>
     <Dependency Name="Microsoft.NET.Test.Sdk" Version="17.6.0-preview-20230223-05">
       <Uri>https://github.com/microsoft/vstest</Uri>
