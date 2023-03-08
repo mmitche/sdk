@@ -281,6 +281,11 @@
       <Uri>https://github.com/dotnet/arcade</Uri>
       <Sha>e4e5e16cf38c950ed835f8b223ebfdeca3e112aa</Sha>
     </Dependency>
+    <Dependency Name="Microsoft.SourceLink.GitHub" Version="1.2.0-beta-23151-02" CoherentParentDependency="Microsoft.DotNet.Arcade.Sdk">
+      <Uri>https://github.com/dotnet/sourcelink</Uri>
+      <Sha>5585cd4cd5779bc7efdf3e2f19ed0bef50b15f7b</Sha>
+      <SourceBuild RepoName="sourcelink" ManagedOnly="true" />
+    </Dependency>
     <Dependency Name="System.Reflection.MetadataLoadContext" Version="8.0.0-preview.3.23158.3">
       <Uri>https://github.com/dotnet/runtime</Uri>
       <Sha>6c836e84131f5f4d44bb5384e6a812571c528ddd</Sha>

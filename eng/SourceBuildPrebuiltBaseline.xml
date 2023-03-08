@@ -4,5 +4,6 @@
     
     <!-- TODO: Ignore needed until https://github.com/NuGet/Home/issues/11059 is addressed. -->
     <UsagePattern IdentityGlob="Nuget.*/*" />
+    <UsagePattern IdentityGlob="Microsoft.Build.NuGetSdkResolver.*/*" />
   </IgnorePatterns>
 </UsageData>
