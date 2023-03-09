@@ -262,6 +262,11 @@
       <Sha>e2279a0388f89a1f771ff7e4ded01f0e657bcafb</Sha>
       <SourceBuild RepoName="source-build-reference-packages" ManagedOnly="true" />
     </Dependency>
+    <Dependency Name="Microsoft.Deployment.DotNet.Releases" Version="1.0.0-preview5.1.22263.1">
+      <Uri>https://github.com/dotnet/deployment-tools</Uri>
+      <Sha>c3ad00ae84489071080a606f6a8e43c9a91a5cc2</Sha>
+      <SourceBuild RepoName="deployment-tools" ManagedOnly="true" />
+    </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
     <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="8.0.0-beta.23156.4">
