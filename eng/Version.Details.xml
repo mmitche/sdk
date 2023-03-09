@@ -265,7 +265,7 @@
     <Dependency Name="Microsoft.Deployment.DotNet.Releases" Version="1.0.0-preview5.1.22263.1">
       <Uri>https://github.com/dotnet/deployment-tools</Uri>
       <Sha>c3ad00ae84489071080a606f6a8e43c9a91a5cc2</Sha>
-      <SourceBuild RepoName="deployment-tools" ManagedOnly="true" />
+      <!-- <SourceBuild RepoName="deployment-tools" ManagedOnly="true" /> -->
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
