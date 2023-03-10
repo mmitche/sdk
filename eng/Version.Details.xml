@@ -12,12 +12,8 @@
     </Dependency>
     <Dependency Name="VS.Redist.Common.NetCore.SharedFramework.x64.8.0" Version="8.0.0-preview.3.23160.2">
       <Uri>https://github.com/dotnet/runtime</Uri>
-<<<<<<< HEAD
-      <Sha>6c836e84131f5f4d44bb5384e6a812571c528ddd</Sha>
-      <SourceBuild RepoName="runtime" ManagedOnly="false" />
-=======
       <Sha>a923c644067c4a37f0bb7c7a331a791d2e51c183</Sha>
->>>>>>> add-deployment-tools-dep
+      <SourceBuild RepoName="runtime" ManagedOnly="false" />
     </Dependency>
     <Dependency Name="VS.Redist.Common.NetCore.TargetingPack.x64.8.0" Version="8.0.0-preview.3.23160.2">
       <Uri>https://github.com/dotnet/runtime</Uri>
@@ -49,12 +45,8 @@
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="17.6.0-preview-23159-04">
       <Uri>https://github.com/dotnet/msbuild</Uri>
-<<<<<<< HEAD
-      <Sha>1a6d753a7648baf0cc991af0c0d254a41d36eba6</Sha>
-      <SourceBuild RepoName="msbuild" ManagedOnly="true" />
-=======
       <Sha>a0c282787d59ca9a449ded85175f39030e5077b8</Sha>
->>>>>>> add-deployment-tools-dep
+      <SourceBuild RepoName="msbuild" ManagedOnly="true" />
     </Dependency>
     <Dependency Name="Microsoft.Build.Localization" Version="17.6.0-preview-23159-04">
       <Uri>https://github.com/dotnet/msbuild</Uri>
