@@ -5,5 +5,8 @@
     <!-- TODO: Ignore needed until https://github.com/NuGet/Home/issues/11059 is addressed. -->
     <UsagePattern IdentityGlob="Nuget.*/*" />
     <UsagePattern IdentityGlob="Microsoft.Build.NuGetSdkResolver.*/*" />
+    
+    <!-- TODO: Ignore needed until vstest gets a source build leg. -->
+    <UsagePattern IdentityGlob="Microsoft.TestPlatform.*/*" />
   </IgnorePatterns>
 </UsageData>
