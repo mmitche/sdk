@@ -8,5 +8,8 @@
     
     <!-- TODO: Ignore needed until vstest gets a source build leg. -->
     <UsagePattern IdentityGlob="Microsoft.TestPlatform.*/*" />
+    
+    <!-- TODO: SBRPs -->
+    <UsagePattern IdentityGlob="Microsoft.Extensions.*6.0.0*/*" />
   </IgnorePatterns>
 </UsageData>
