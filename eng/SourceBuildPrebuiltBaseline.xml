@@ -9,6 +9,13 @@
     <!-- TODO: Ignore needed until vstest gets a source build leg. -->
     <UsagePattern IdentityGlob="Microsoft.TestPlatform.*/*" />
     
+    <!-- TODO: Ignore needed until razor merges main into the 17.6 branch -->
+    <UsagePattern IdentityGlob="Microsoft*Razor.*/*" />
+    
+    <!-- TODO: Figure out what to do about the netcoreapp ref packages (these are probably being pulled
+         in via implicit versions and net6 targeting projects (e.g. tests) -->
+    <UsagePattern IdentityGlob="Microsoft.*.App.Ref/*6.0*" />  
+    
     <!-- TODO: SBRPs or updates -->
     <UsagePattern IdentityGlob="Microsoft.ApplicationInsights/*2.19.0*" />
     <UsagePattern IdentityGlob="Microsoft.Bcl.AsyncInterfaces/*6.0.0*" />
@@ -29,7 +36,7 @@
     <UsagePattern IdentityGlob="System.Diagnostics.DiagnosticSource/*6.0.0*" />
     <UsagePattern IdentityGlob="System.Diagnostics.EventLog/*7.0.0*" />
     <UsagePattern IdentityGlob="System.Drawing.Common/*7.0.0*" />
-    <UsagePattern IdentityGlob="System.Formats.Asnl/*7.0.0*" />
+    <UsagePattern IdentityGlob="System.Formats.Asn1/*7.0.0*" />
     <UsagePattern IdentityGlob="System.IO.Pipelines/*6.0.3*" />
     <UsagePattern IdentityGlob="System.Reflection.Metadata*/*7.0.0*" />
     <UsagePattern IdentityGlob="System.Resources.Extensions/*7.0.0*" />
