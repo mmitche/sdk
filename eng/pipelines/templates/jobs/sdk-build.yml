@@ -106,7 +106,7 @@ jobs:
           ${{ parameters.osProperties }} \
           ${{ parameters.runtimeSourceProperties }} \
           ${{ parameters.officialBuildProperties }} \
-          /p:DotNetSignType=$(_SignType) /p:TeamName=$(_TeamName)
+          /p:DotNetSignType=$(_SignType) /p:TeamName=$(_TeamName) \
           /verbosity:detailed
         displayName: Build
         env:
