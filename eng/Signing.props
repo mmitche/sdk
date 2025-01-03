@@ -54,6 +54,8 @@
     <FileExtensionSignInfo Include=".otf" CertificateName="None" />
     <FileExtensionSignInfo Remove=".js" />
     <FileExtensionSignInfo Include=".js" CertificateName="None" />
+    <FileExtensionSignInfo Remove=".dll" />
+    <FileExtensionSignInfo Include=".dll" CertificateName="None" />
   </ItemGroup>
 
   <ItemGroup>
