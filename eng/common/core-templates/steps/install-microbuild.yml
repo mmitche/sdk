@@ -71,13 +71,3 @@ steps:
             eq(variables['_SignType'], 'real')
           )
         ))
-    - bash: |
-        SignConfigFile="$MBSIGN_APPFOLDER/signconfig.xml"
-        if [ ! -e "$SignConfigFile" ]; then
-            echo "SignConfigFile not found: $SignConfigFile"
-            exit 1
-        fi
-        cat "$SignConfigFile" | sed 's|<TotalNumberOfParallelThreads>[0-9]*</TotalNumberOfParallelThreads>|<TotalNumberOfParallelThreads>10</TotalNumberOfParallelThreads>|' > temp_file && mv temp_file "$SignConfigFile"
-        cat "$SignConfigFile"
-      displayName: Increase Thread Count to 10
-      condition: and(succeeded(), ne(variables['Agent.OS'], 'Windows_NT'))
