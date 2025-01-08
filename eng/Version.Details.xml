@@ -589,30 +589,30 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="10.0.0-beta.25053.5">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="10.0.0-beta.25057.7">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-arcade</Uri>
-      <Sha>5c76be4265faa9677af074db78e16b96215207bf</Sha>
+      <Sha>4efaa6d8cfd8427ce9d2750e507cf0ea2fbe59f3</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Build.Tasks.Installers" Version="10.0.0-beta.25053.5">
+    <Dependency Name="Microsoft.DotNet.Build.Tasks.Installers" Version="10.0.0-beta.25057.7">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-arcade</Uri>
-      <Sha>5c76be4265faa9677af074db78e16b96215207bf</Sha>
+      <Sha>4efaa6d8cfd8427ce9d2750e507cf0ea2fbe59f3</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Helix.Sdk" Version="10.0.0-beta.25053.5">
+    <Dependency Name="Microsoft.DotNet.Helix.Sdk" Version="10.0.0-beta.25057.7">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-arcade</Uri>
-      <Sha>5c76be4265faa9677af074db78e16b96215207bf</Sha>
+      <Sha>4efaa6d8cfd8427ce9d2750e507cf0ea2fbe59f3</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.XUnitExtensions" Version="10.0.0-beta.25053.5">
+    <Dependency Name="Microsoft.DotNet.XUnitExtensions" Version="10.0.0-beta.25057.7">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-arcade</Uri>
-      <Sha>5c76be4265faa9677af074db78e16b96215207bf</Sha>
+      <Sha>4efaa6d8cfd8427ce9d2750e507cf0ea2fbe59f3</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.XliffTasks" Version="10.0.0-beta.25053.5">
+    <Dependency Name="Microsoft.DotNet.XliffTasks" Version="10.0.0-beta.25057.7">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-arcade</Uri>
-      <Sha>5c76be4265faa9677af074db78e16b96215207bf</Sha>
+      <Sha>4efaa6d8cfd8427ce9d2750e507cf0ea2fbe59f3</Sha>
     </Dependency>
     <!-- Intermediate is necessary for source build. -->
-    <Dependency Name="Microsoft.SourceBuild.Intermediate.arcade" Version="10.0.0-beta.25053.5">
+    <Dependency Name="Microsoft.SourceBuild.Intermediate.arcade" Version="10.0.0-beta.25057.7">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-arcade</Uri>
-      <Sha>5c76be4265faa9677af074db78e16b96215207bf</Sha>
+      <Sha>4efaa6d8cfd8427ce9d2750e507cf0ea2fbe59f3</Sha>
       <SourceBuild RepoName="arcade" ManagedOnly="true" />
     </Dependency>
     <Dependency Name="System.Reflection.MetadataLoadContext" Version="10.0.0-alpha.1.24570.9">
