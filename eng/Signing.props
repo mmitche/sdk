@@ -46,7 +46,9 @@
     <FileSignInfo Include="singlefilehost.exe" CertificateName="None" />
 
     <FilesToNotarize Include="$(ArtifactsPackagesDir)**\dotnet-sdk-*-osx-x64.pkg" />
-    <FileSignInfo Include="@(FilesToNotarize->'%(Filename)%(Extension)')" CertificateName="MacDeveloperHardenAndNotarize" />
+    <FileSignInfo Include="@(FilesToNotarize->'%(Filename)%(Extension)')" CertificateName="MacDeveloperWithNotarization" />
+
+    <FileSignInfo Include="dotnet;createdump;apphost;singlefilehost" CertificateName="MacDeveloperHarden" />
 
     <!-- .ttf and .js files come in from some older aspnetcore packages (e.g. 2.1).
           These files in the 5.0 packages are NOT signed. When doing postbuild signing,
@@ -59,6 +61,7 @@
     <FileExtensionSignInfo Include=".js" CertificateName="None" />
     <FileExtensionSignInfo Remove=".dll" />
     <FileExtensionSignInfo Include=".dll" CertificateName="None" />
+    <FileExtensionSignInfo Include=".dylib" CertificateName="MacDeveloperHarden" />
   </ItemGroup>
 
   <ItemGroup>
