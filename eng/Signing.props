@@ -45,6 +45,9 @@
     <FileSignInfo Include="comhost.dll" CertificateName="None" />
     <FileSignInfo Include="singlefilehost.exe" CertificateName="None" />
 
+    <FilesToNotarize Include="$(ArtifactsPackagesDir)**\dotnet-sdk-*-osx-x64.pkg" />
+    <FileSignInfo Include="@(FilesToNotarize->'%(Filename)%(Extension)')" CertificateName="MacDeveloperHardenAndNotarize" />
+
     <!-- .ttf and .js files come in from some older aspnetcore packages (e.g. 2.1).
           These files in the 5.0 packages are NOT signed. When doing postbuild signing,
           SignTool will recognize that the files in the installer zips came from the 5.0 packages
