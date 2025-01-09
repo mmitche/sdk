@@ -61,6 +61,7 @@
     <FileExtensionSignInfo Include=".js" CertificateName="None" />
     <FileExtensionSignInfo Remove=".dll" />
     <FileExtensionSignInfo Include=".dll" CertificateName="None" />
+    <FileExtensionSignInfo Remove=".dylib" />
     <FileExtensionSignInfo Include=".dylib" CertificateName="MacDeveloperHarden" />
   </ItemGroup>
 
