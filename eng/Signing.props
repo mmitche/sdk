@@ -63,6 +63,8 @@
     <FileExtensionSignInfo Include=".dll" CertificateName="None" />
     <FileExtensionSignInfo Remove=".dylib" />
     <FileExtensionSignInfo Include=".dylib" CertificateName="MacDeveloperHarden" />
+    <FileExtensionSignInfo Remove=".pkg" CertificateName="MacDeveloperHarden" />
+    <FileExtensionSignInfo Include=".pkg" CertificateName="MacDeveloper" />
   </ItemGroup>
 
   <ItemGroup>
