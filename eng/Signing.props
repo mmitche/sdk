@@ -45,7 +45,7 @@
     <FileSignInfo Include="comhost.dll" CertificateName="None" />
     <FileSignInfo Include="singlefilehost.exe" CertificateName="None" />
 
-    <FilesToNotarize Include="$(ArtifactsPackagesDir)**\dotnet-sdk-*-osx-x64.pkg" />
+    <FilesToNotarize Include="$(ArtifactsPackagesDir)**\dotnet-sdk-*-osx-*.pkg" Exclude="$(ArtifactsPackagesDir)**\dotnet-sdk-internal-*-osx-*.pkg" />
     <FileSignInfo Include="@(FilesToNotarize->'%(Filename)%(Extension)')" CertificateName="MacDeveloperWithNotarization" />
 
     <FileSignInfo Include="dotnet;createdump;apphost;singlefilehost" CertificateName="MacDeveloperHarden" />
