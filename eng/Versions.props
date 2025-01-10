@@ -276,9 +276,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/arcade -->
-    <MicrosoftDotNetBuildTasksInstallersPackageVersion>10.0.0-beta.25059.8</MicrosoftDotNetBuildTasksInstallersPackageVersion>
-    <MicrosoftDotNetXliffTasksVersion>10.0.0-beta.25059.8</MicrosoftDotNetXliffTasksVersion>
-    <MicrosoftDotNetXUnitExtensionsVersion>10.0.0-beta.25059.8</MicrosoftDotNetXUnitExtensionsVersion>
+    <MicrosoftDotNetBuildTasksInstallersPackageVersion>10.0.0-beta.25059.11</MicrosoftDotNetBuildTasksInstallersPackageVersion>
+    <MicrosoftDotNetXliffTasksVersion>10.0.0-beta.25059.11</MicrosoftDotNetXliffTasksVersion>
+    <MicrosoftDotNetXUnitExtensionsVersion>10.0.0-beta.25059.11</MicrosoftDotNetXUnitExtensionsVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/sourcelink -->
