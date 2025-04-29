@@ -134,7 +134,7 @@ public class JoinVerticals : Microsoft.Build.Utilities.Task
                 sourceFile.fileName : Path.GetFileName(sourceFile.fileName);
             string destinationFilePath = Path.Combine(destinationDirectory, destinationFileSubPath);
             // Ensure the directory is created. PDBs go in subdirs that may not be created.
-            ForceDirectory(Path.GetDirectory(destinationFileSubPath));
+            ForceDirectory(Path.GetDirectoryName(destinationFileSubPath));
 
             Log.LogMessage(MessageImportance.High, $"Copying {sourceFile} to {destinationFilePath}");
 
